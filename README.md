@@ -77,7 +77,7 @@ Dashboard (JWT) → Analytics Query API ← Pre-computed Metrics
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/analytics-engine.git
+git clone https://github.com/st7ven7/analytics-engine.git
 cd analytics-engine
 
 # Install dependencies
@@ -99,7 +99,7 @@ NODE_ENV=development
 DB_HOST=localhost
 DB_PORT=5432
 DB_USERNAME=postgres
-DB_PASSWORD=your_password
+DB_PASSWORD=password
 DB_NAME=analytics_engine
 
 REDIS_HOST=localhost
