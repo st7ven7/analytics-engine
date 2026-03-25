@@ -3,6 +3,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { BullModule } from '@nestjs/bullmq';
 import { ThrottlerModule } from '@nestjs/throttler';
+import { AppsModule } from './modules/apps/apps.module';
 
 @Module({
   imports: [
@@ -42,6 +43,8 @@ import { ThrottlerModule } from '@nestjs/throttler';
         limit: 100,
       }
     ]),
+
+    AppsModule
   ],
 })
 export class AppModule {}
