@@ -116,6 +116,6 @@ JWT_EXPIRES_IN=7d
 - [x] Project setup and configuration
 - [x] Database entities
 - [x] Apps module — app registration and API key generation
-- [ ] Events module — event ingestion and queueing
+- [x] Events module — event ingestion and queueing
 - [ ] Workers module — background event processing
 - [ ] Analytics module — query endpoints
