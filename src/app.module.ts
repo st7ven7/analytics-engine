@@ -5,6 +5,7 @@ import { BullModule } from '@nestjs/bullmq';
 import { ThrottlerModule } from '@nestjs/throttler';
 import { AppsModule } from './modules/apps/apps.module';
 import { EventsModule } from './modules/events/events.module';
+import { WorkersModule } from './modules/workers/workers.module';
 
 @Module({
   imports: [
@@ -46,7 +47,8 @@ import { EventsModule } from './modules/events/events.module';
     ]),
 
     AppsModule,
-    EventsModule
+    EventsModule,
+    WorkersModule,
   ],
 })
 export class AppModule {}
