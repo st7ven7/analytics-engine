@@ -118,4 +118,7 @@ JWT_EXPIRES_IN=7d
 - [x] Apps module — app registration and API key generation
 - [x] Events module — event ingestion and queueing
 - [x] Workers module — background event processing
-- [ ] Analytics module — query endpoints
+- [x] Analytics module — query endpoints
+- [x] Auth module — JWT authentication and login
+- [ ] Global error handler
+- [ ] Final polish and cleanup
