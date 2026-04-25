@@ -120,5 +120,5 @@ JWT_EXPIRES_IN=7d
 - [x] Workers module — background event processing
 - [x] Analytics module — query endpoints
 - [x] Auth module — JWT authentication and login
-- [ ] Global error handler
-- [ ] Final polish and cleanup
+- [x] Global error handler
+- [x] Final polish and cleanup
